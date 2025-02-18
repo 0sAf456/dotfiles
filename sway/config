@@ -19,7 +19,7 @@ assign [class="discord"] workspace 5
 # Launch the programs
 exec firefox
 exec foot
-exec rider
+exec --no-startup-id rider
 exec flatpak run com.spotify.Client
 exec flatpak run com.discordapp.Discord
 
