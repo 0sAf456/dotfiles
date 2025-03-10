@@ -1,6 +1,8 @@
 {
   "extras": [
+    "lazyvim.plugins.extras.editor.telescope",
     "lazyvim.plugins.extras.lang.omnisharp",
+    "lazyvim.plugins.extras.lang.tailwind",
     "lazyvim.plugins.extras.ui.alpha"
   ],
   "install_version": 8,
