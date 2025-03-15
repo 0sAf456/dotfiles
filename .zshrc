@@ -80,21 +80,13 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
-echo "
-⠀⠀⠀⣠⣴⣶⣿⡿⠟⠻⠷⢲⣦⣄⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⣠⢞⣵⠞⣫⠥⢿⡟⠛⠋⠉⢁⠽⠛⣿⣗⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⢰⠃⠉⠁⡞⣀⡀⠀⢸⠀⠀⢰⠃⠀⠈⠉⣼⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⡜⠀⠀⢚⠷⣛⣃⣀⠜⠀⠀⠈⠓⣶⠖⠚⢿⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⡇⠀⠀⠀⠀⠀⠈⠁⣀⣒⣲⠒⡾⢡⡯⣉⣆⢱⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⡇⠀⠀⠀⠀⠀⠀⠀⠭⠽⠿⠽⡇⡟⠓⠛⢻⣸⠀⢀⠀⠀⠀⢀⣀⣀⠀⢀⠀⠀
-⢱⠀⠀⠠⡀⠀⠀⠀⠀⠀⠀⠀⡇⡇⠀⠀⡏⡇⠀⢸⠀⠀⢠⡏⠀⢹⡇⣿⠀⠀
-⠈⡆⠀⠀⠈⡄⠀⠰⠶⣄⠀⠀⡇⣇⡀⠘⡅⡇⠀⢸⣤⣤⠈⢷⣤⡼⠃⣿⣤⣤
-⠀⠘⡄⠠⠀⠣⡀⠀⢌⡙⢅⢸⢸⣀⣈⣢⡇⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠱⡄⠀⢤⡈⠢⡀⠈⠑⣾⠘⣞⠚⣷⠃⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠈⠲⢤⡀⠀⠀⠀⠀⠘⠦⣀⣉⡡⠞⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠈⠙⠒⠤⣀⣠⠶⠒⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"
-
-
+echo -e "
+\033[1;34m _   _      _ _                         _   _                __            _ \033[0m
+\033[1;34m| | | |    | | |                       | | | |              / _|          | | \033[0m
+\033[1;34m| |_| | ___| | | ___    _ __ ___   ___ | |_| |__   ___ _ __| |_ _   _  ___| | _____ _ __ \033[0m
+\033[1;34m|  _  |/ _ \\ | |/ _ \\  | '_ \` _ \\ / _ \\| __| '_ \\ / _ \\ '__|  _| | | |/ __| |/ / _ \\ '__|\033[0m
+\033[1;34m| | | |  __/ | | (_) | | | | | | | (_) | |_| | | |  __/ |  | | | |_| | (__|   <  __/ |   \033[0m
+\033[1;34m\\_| |_/\___|_|_|\\___/  |_| |_| |_|\___/ \\__|_| |_|\___|_|  |_|  \\__,_|\___|_|\_\\___|_| \033[0m"
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -144,3 +136,9 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 
 export PATH="$HOME/.config/emacs/bin:$PATH"
 
+
+# Following line was automatically added by arttime installer
+export MANPATH=/home/ainaras/.local/share/man:$MANPATH
+
+# Following line was automatically added by arttime installer
+export PATH=/home/ainaras/.local/bin:$PATH
