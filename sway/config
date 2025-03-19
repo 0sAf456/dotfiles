@@ -86,7 +86,12 @@ bindsym alt+space exec swaymsg input type:touchpad events toggle
 
 bindsym $mod+Control+Shift+Right move workspace to output right
 bindsym $mod+Control+Shift+Left move workspace to output left
-
+# Set keyboard layouts
+input * {
+    xkb_layout "us,lt"
+    xkb_variant ","
+    xkb_options "grp:alt_shift_toggle"
+}
 #
 # You can get the names of your inputs by running: swaymsg -t get_inputs
 # Read `man 5 sway-input` for more information about this section.
