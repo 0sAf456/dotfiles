@@ -81,12 +81,26 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 echo -e "
-\033[1;34m _   _      _ _                         _   _                __            _ \033[0m
-\033[1;34m| | | |    | | |                       | | | |              / _|          | | \033[0m
-\033[1;34m| |_| | ___| | | ___    _ __ ___   ___ | |_| |__   ___ _ __| |_ _   _  ___| | _____ _ __ \033[0m
-\033[1;34m|  _  |/ _ \\ | |/ _ \\  | '_ \` _ \\ / _ \\| __| '_ \\ / _ \\ '__|  _| | | |/ __| |/ / _ \\ '__|\033[0m
-\033[1;34m| | | |  __/ | | (_) | | | | | | | (_) | |_| | | |  __/ |  | | | |_| | (__|   <  __/ |   \033[0m
-\033[1;34m\\_| |_/\___|_|_|\\___/  |_| |_| |_|\___/ \\__|_| |_|\___|_|  |_|  \\__,_|\___|_|\_\\___|_| \033[0m"
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⣛⣛⣛⣛⣟⣛⣛⡻⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿ 
+⣿⣿⣿⣿⣿⣿⣿⢟⣫⣭⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣝⠻⣿⣿⣿⣿⣿⣿⣿⣿ 
+⣿⣿⣿⣿⣿⣿⢇⣼⣿⣿⣿⣿⣿⣠⣤⣤⣛⣻⣿⣿⣿⠿⣿⣿⣜⠻⣿⣿⣿⣿⣿⣿ 
+⣿⣿⣿⣿⣿⠇⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⣿⣿⣿⣿⣿⣿⣿⣿⡜⢿⣿⣿⣿ 
+⣿⣿⣿⣿⡟⢸⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣮⣭⣭⣭⣭⣿⣿⣿⡜⢿⣿⣿ 
+⣿⣿⣿⣿⢣⢸⣿⣿⣿⣿⣿⣿⡿⣫⣵⣶⣶⣶⣭⣻⢿⣿⣿⣿⣿⢫⣭⣭⣃⢿⣿⣿ 
+⣿⣿⣿⣿⢸⢸⣿⣿⣿⣿⣿⣿⣷⣿⣿⠿⢿⠿⡿⣿⣦⣹⣿⡟⣱⣾⣿⣿⣿⡆⢿⣿ 
+⣿⣿⣿⣿⢸⡏⢸⣴⣶⣦⣤⣭⣉⣭⢰⠒⡒⠒⠶⣶⣌⠛⣛⠻⠟⠩⠭⠭⢭⡅⠹⣿ 
+⣿⣿⣿⣿⡆⢸⢷⣴⣿⣿⣿⣿⣿⣿⢸⣦⣥⣤⣤⣴⡿⢸⣿⣿⡆⣚⣀⣀⣿⡇⠀⣿ 
+⣿⣿⣿⣿⣷⡸⢸⣿⡿⣿⣿⠿⣿⣿⣬⣙⣛⣛⣛⣛⣃⣼⣿⡏⣇⠛⡛⠻⠛⡓⠀⢸ 
+⣿⣿⣿⣿⣿⣷⡸⢹⣿⣮⡑⠐⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣌⠻⣿⣿⡿⢜⠐⢸ 
+⣿⣿⣿⣿⣿⣿⣷⢸⢹⣿⡩⠈⣛⣿⣿⣿⣿⣿⣿⣅⠶⡿⢻⡿⠟⣱⣿⡿⠷⠁⣼⢸ 
+⣿⣿⣿⣿⣿⣿⣿⢸⢸⣿⣟⡅⠉⢻⣿⣿⣿⢩⣾⠟⢫⠥⡍⡛⡓⢟⢻⣇⢋⣸⣿⢸ 
+⣿⣿⣿⣿⣿⣿⡿⢸⣸⣿⣿⡇⣴⠈⠿⣿⣿⣘⡇⠀⠀⠀⠀⠀⠀⢸⣌⠁⣼⣿⣿⢸ 
+⣿⣿⣿⣿⣿⣿⠇⢸⣿⣿⣿⣴⣷⣶⠂⠋⡻⣿⣷⡀⠀⠀⠀⠀⢠⡯⠉⣰⣿⣿⣿⢸ 
+⣿⣿⣿⣿⣿⡏⢸⣾⣿⣿⡟⢩⣿⣿⣷⣧⠁⡍⢹⣿⡄⠀⢸⣾⡟⡄⣼⣿⣿⣿⣿⢸ 
+⣿⣿⡿⠿⠫⢸⣾⣿⡿⢟⣼⣿⣿⣿⣿⣿⣶⣀⣀⠊⢐⢃⣂⡉⠤⠶⠿⠿⠿⢿⣿⢸ 
+⢸⣯⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣟⣻⢿⣿⠿⣗⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣶⢸ 
+⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣿⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢸ 
+"
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -117,7 +131,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias cat="bat"
 alias nvim-my="NVIM_APPNAME=LazyVim nvim"
+alias ghidra="_JAVA_AWT_WM_NONREPARENTING=1 ~/programs/ghidra_11.3.1_PUBLIC/ghidraRun"
 
 function nvims() {
   items=("default" "myNvim") 
@@ -156,3 +172,6 @@ export MANPATH=/home/ainaras/.local/share/man:$MANPATH
 
 # Following line was automatically added by arttime installer
 export PATH=/home/ainaras/.local/bin:$PATH
+export PATH="/home/ainaras/.config/herd-lite/bin:$PATH"
+export PHP_INI_SCAN_DIR="/home/ainaras/.config/herd-lite/bin:$PHP_INI_SCAN_DIR"
+export PATH=/home/ainaras/Downloads/jdk-24/bin:$PATH
