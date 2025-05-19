@@ -133,7 +133,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias cat="bat"
 alias nvim-my="NVIM_APPNAME=LazyVim nvim"
-alias ghidra="_JAVA_AWT_WM_NONREPARENTING=1 ~/programs/ghidra_11.3.1_PUBLIC/ghidraRun"
 
 function nvims() {
   items=("default" "myNvim") 
@@ -165,7 +164,8 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 #doom
 
 export PATH="$HOME/.config/emacs/bin:$PATH"
-
+export EDITOR=nvim
+export VISUAL="$EDITOR"
 
 # Following line was automatically added by arttime installer
 export MANPATH=/home/ainaras/.local/share/man:$MANPATH
@@ -175,3 +175,4 @@ export PATH=/home/ainaras/.local/bin:$PATH
 export PATH="/home/ainaras/.config/herd-lite/bin:$PATH"
 export PHP_INI_SCAN_DIR="/home/ainaras/.config/herd-lite/bin:$PHP_INI_SCAN_DIR"
 export PATH=/home/ainaras/Downloads/jdk-24/bin:$PATH
+
