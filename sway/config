@@ -12,14 +12,12 @@ default_border pixel 3
 # Assign programs to specific workspaces
 assign [class="Foot"] workspace 1
 assign [app_id="firefox"] workspace 2
-assign [class="Godot"] workspace 3
 assign [class="Spotify"] workspace 4
 assign [class="discord"] workspace 5
 
 # Launch the programs
 exec firefox
 exec foot
-exec godot
 exec flatpak run com.spotify.Client
 exec flatpak run com.discordapp.Discord
 
