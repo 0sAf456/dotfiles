@@ -16,8 +16,6 @@
     ],
     "modules-right": [
         "pulseaudio",
-        "cpu",
-        "memory",
         "temperature",
         "sway/language",
         "battery",
