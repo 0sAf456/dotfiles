@@ -10,7 +10,7 @@ default_border pixel 3
 
 # Switch to workspace 1 and launch foot terminal
 # Assign programs to specific workspaces
-assign [class="Foot"] workspace 1
+assign [class="kitty"] workspace 1
 assign [app_id="firefox"] workspace 2
 assign [class="Spotify"] workspace 4
 assign [class="discord"] workspace 5
